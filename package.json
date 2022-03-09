@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Kaizen projects backend api",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "jest"
   },
   "repository": {
@@ -19,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/tallninja/laizen-api/issues"
   },
-  "homepage": "https://github.com/tallninja/laizen-api#readme"
+  "homepage": "https://github.com/tallninja/laizen-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "joi": "^17.6.0",
+    "mongoose": "^6.2.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2"
+  }
 }
