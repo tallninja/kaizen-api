@@ -1,0 +1,23 @@
+{
+  "name": "kaizen-api",
+  "version": "1.0.0",
+  "description": "Kaizen projects backend api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tallninja/kaizen-api.git"
+  },
+  "keywords": [
+    "API",
+    "Backend"
+  ],
+  "author": "Ernest WAmbua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tallninja/laizen-api/issues"
+  },
+  "homepage": "https://github.com/tallninja/laizen-api#readme"
+}
