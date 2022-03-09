@@ -1,2 +1,5 @@
 node_modules
 dev.js
+db_password.txt
+db_user.txt
+data
